@@ -18,9 +18,9 @@ print(device)
 #     denominator = np.max(data, 0) - np.min(data, 0)
 #     return numerator / (denominator + 1e-7)
 
-seq_length = 5 # 30분 경과 후의 예측
-data_dim = 56 # feature 갯수
-hidden_dim = 20 # 은닉층 길이
+seq_length = 20 # 30분 경과 후의 예측
+data_dim = 71 # feature 갯수
+hidden_dim = 32 # 은닉층 길이
 output_dim = 1 # true/false
 learning_rate = 0.0001
 iterations = 10000000
@@ -35,11 +35,11 @@ df_06 = pd.read_csv("./data_processed/challenger_6.csv")
 df_09 = pd.read_csv("./data_processed/challenger_9.csv")
 df_12 = pd.read_csv("./data_processed/challenger_12.csv")
 df_15 = pd.read_csv("./data_processed/challenger_15.csv")
-# df_18 = pd.read_csv("./data_processed/challenger_18.csv")
-# df_21 = pd.read_csv("./data_processed/challenger_21.csv")
-# df_24 = pd.read_csv("./data_processed/challenger_24.csv")
-# df_27 = pd.read_csv("./data_processed/challenger_27.csv")
-# df_30 = pd.read_csv("./data_processed/challenger_30.csv")
+df_18 = pd.read_csv("./data_processed/challenger_18.csv")
+df_21 = pd.read_csv("./data_processed/challenger_21.csv")
+df_24 = pd.read_csv("./data_processed/challenger_24.csv")
+df_27 = pd.read_csv("./data_processed/challenger_27.csv")
+df_30 = pd.read_csv("./data_processed/challenger_30.csv")
 
 print("dataset_shape: ", df_03.shape)
 train_set_len = int(df_03.shape[0]*0.7)
