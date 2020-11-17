@@ -19,12 +19,12 @@ print(device)
 #     return numerator / (denominator + 1e-7)
 
 seq_length = 20 # 30분 경과 후의 예측
-data_dim = 71 # feature 갯수
+data_dim = 70 # feature 갯수
 hidden_dim = 32 # 은닉층 길이
 output_dim = 1 # true/false
 learning_rate = 0.0001
-iterations = 1
-#iterations = 10000000
+#iterations = 1
+iterations = 50000
 
 # 우리는 일반적인 시계열 형태가 아닌
 # 각 시계열에 해당하는 것이 많은 경기가 존재하는
