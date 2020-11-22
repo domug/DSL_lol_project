@@ -1,0 +1,70 @@
+1.5분
+tensor([0.0614])
+isCorrect?:  True
+3분
+tensor([0.0015])
+isCorrect?:  True
+4.5분
+tensor([0.0046])
+isCorrect?:  True
+6분
+tensor([0.1230])
+isCorrect?:  True
+7.5분
+tensor([0.1230])
+isCorrect?:  True
+9분
+tensor([0.9722])
+isCorrect?:  False
+10.5분
+tensor([0.4259])
+isCorrect?:  True
+12분
+tensor([0.9642])
+isCorrect?:  False
+13.5분
+tensor([0.9722])
+isCorrect?:  False
+15분
+tensor([0.9722])
+isCorrect?:  False
+16.5분
+tensor([0.9722])
+isCorrect?:  False
+18분
+tensor([0.9722])
+isCorrect?:  False
+19.5분
+tensor([0.9722])
+isCorrect?:  False
+21분
+tensor([0.9722])
+isCorrect?:  False
+22.5분
+tensor([0.9722])
+isCorrect?:  False
+24분
+tensor([0.9722])
+isCorrect?:  False
+25.5분
+tensor([0.9722])
+isCorrect?:  False
+27분
+tensor([0.9280])
+isCorrect?:  False
+28.5분
+tensor([0.9280])
+isCorrect?:  False
+30분
+tensor([0.9280])
+isCorrect?:  False
+31.5분
+tensor([0.6009])
+isCorrect?:  False
+33분
+tensor([0.0011])
+isCorrect?:  True
+34.5분
+tensor([0.0011])
+isCorrect?:  True
+

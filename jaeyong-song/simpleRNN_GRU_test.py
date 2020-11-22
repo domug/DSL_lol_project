@@ -35,8 +35,8 @@ print("Valset Loading...")
 # testX = np.load('./valX.npy')
 # testY = np.load('./valY.npy')
 
-testX = np.load('./testX_15.npy')
-testY = np.load('./testY_15.npy')
+testX = np.load('./testX.npy')
+testY = np.load('./testY.npy')
 
 testX_tensor = torch.FloatTensor(testX)
 testY_tensor = torch.FloatTensor(testY)

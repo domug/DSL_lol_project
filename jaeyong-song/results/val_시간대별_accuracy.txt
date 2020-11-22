@@ -1,0 +1,50 @@
+1.5분
+cuda:0
+Valset Loading...
+testX shape:  torch.Size([3835, 1, 70])
+testY shape:  torch.Size([3835, 1, 1])
+Data Loading Finished....
+Total:  3835
+Correct:  1913
+Accuracy:  49.88265971316819 %
+
+7.5분
+cuda:0
+Valset Loading...
+testX shape:  torch.Size([3835, 5, 70])
+testY shape:  torch.Size([3835, 1, 1])
+Data Loading Finished....
+Total:  3835
+Correct:  2545
+Accuracy:  66.36245110821382 %
+
+15분
+cuda:0
+Valset Loading...
+testX shape:  torch.Size([3835, 10, 70])
+testY shape:  torch.Size([3835, 1, 1])
+Data Loading Finished....
+Total:  3835
+Correct:  2937
+Accuracy:  76.58409387222946 %
+
+22.5분
+cuda:0
+Valset Loading...
+testX shape:  torch.Size([3835, 15, 70])
+testY shape:  torch.Size([3835, 1, 1])
+Data Loading Finished....
+Total:  3835
+Correct:  3358
+Accuracy:  87.5619295958279 %
+
+30분
+cuda:0
+Valset Loading...
+testX shape:  torch.Size([3835, 20, 70])
+testY shape:  torch.Size([3835, 1, 1])
+Data Loading Finished....
+Total:  3835
+Correct:  3607
+Accuracy:  94.05475880052151 %
+
